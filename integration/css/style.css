@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Roboto&display=swap');
+
+h1,h2,p,a ,span,h5{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h2{
+  text-transform: uppercase;
+  color:black;
+}
+a{
+  text-decoration: none;
+  color: black;
+  border-bottom: 2px solid black;
+  text-align: center;
+}
+
+/************ section banniere ******************/
+#banniere .text_center img { max-width:100%;height: auto; }
+
+.ban {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+#bottom-right {
+  position: absolute;
+  bottom: 31%;
+  text-align: left;
+  width: 45%;
+  right: 10%;
+}
+#bottom-right span {
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+
+ /********* section realisations ****************/
+#realisations p{
+ font-size: 12px;
+}
+
+.titrevaleur{
+  position: relative;
+   top: 70% !important;
+   color: white;
+   font-weight: bold;
+   
+}
+.paravaleur{
+   position: absolute;
+   top: 80% !important;
+}
+.card{
+  border:none !important;
+}
+
+.card-body{
+  text-align: center;
+}
+
+#realisations img:hover {
+	opacity: 1;
+	-webkit-animation: flash 1.5s;
+	animation: flash 1.5s;
+}
+@-webkit-keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes flash {
+	0% {
+		opacity: .4;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+/*********** section valeur **********/
+ /**
+            * ZOOM IMAGE EFFECT ON HOVER
+            */
+            .wprock-img-zoom-hover .wprock-img-zoom {
+                overflow: hidden;
+                position: relative; 
+            }
+            .wprock-img-zoom-hover .wprock-img-zoom img {
+                max-width: 100%;
+                -moz-transition: all 0.8s;
+                -webkit-transition: all 0.8s;
+                transition: all 0.8s;
+            }
+            .wprock-img-zoom-hover .wprock-img-zoom * {
+                -moz-box-sizing: border-box;
+                -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+            .wprock-img-zoom-hover:hover .wprock-img-zoom img {
+                -moz-transform: scale(1.06);
+                -webkit-transform: scale(1.06);
+                transform: scale(1.06);
+            }
+            
+/********** footer ******************/
+
+footer{
+  background-color:grey;
+  padding: 3%;
+}
+.box {  
+  display: flex;
+  justify-content: center;
+}
+.box img{
+width: 60%;
+}
